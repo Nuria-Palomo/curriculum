@@ -99,27 +99,27 @@ html {
     letter-spacing: 2px;
 }
 
-.inicio .contenido-seccion .info .redes{
+.sobremi .contenido-seccion .redes{
     margin: 20px 0;
 }
 
-.inicio .contenido-seccion .info .redes a{
+.sobremi .contenido-seccion .redes a{
     display: inline-block;
     text-decoration: none;
     border-radius: 50px;
     color: #940253;
     border: 70%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 55px;
     line-height: 50px;
     margin: 0 5px;
     transition: .3s;
 }
 
-.inicio .contenido-seccion .info .redes a:hover{
+.sobremi .contenido-seccion .redes a:hover{
     color: #940253;
     background-color: #ffff;
-    box-shadow: 0 0 20px #940253;
+    box-shadow: 0 0 50px #940253;
 }
 
 .inicio .contenido-seccion .foto{
@@ -224,9 +224,12 @@ html {
 }
 
 .competencias .contenido-seccion .fila .col{
+    font-size: 20px;
+    font-weight: 700;
     width: 47%;
     text-align: left;
 }
+
 
 .competencias .contenido-seccion .fila .col .cont-barra{
     display: flex;

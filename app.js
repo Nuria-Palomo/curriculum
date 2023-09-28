@@ -29,7 +29,7 @@ function crearBarra(id_barra){
     }
 }
 
-//selecciono todas las barras generales par aluego manipularlas
+//selecciono todas las barras generales para luego manipularlas
 let html = document.getElementById("html");
 crearBarra(html);
 let javascript = document.getElementById("javascript");
@@ -40,8 +40,10 @@ let symfony = document.getElementById("symfony");
 crearBarra(symfony);
 let react = document.getElementById("react");
 crearBarra(react);
+let node = document.getElementById("node");
+crearBarra(node);
 
-//Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada barar
+//Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada bar
 //para eso utilizo un arreglo, cada posiciòn pertenece a un elemento
 //comienzan en -1 porque no tiene ninguna pintada al iniciarse
 let contadores = [-1,-1,-1,-1,-1,-1];
@@ -58,20 +60,23 @@ function efectoHabilidades(){
             pintarBarra(html, 16, 0, intervalHtml);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(javascript, 10, 1, intervalJavascript);
+            pintarBarra(javascript, 15, 3, intervalJavascript);
         },100);
         const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 14, 2, intervalWordpress);
+            pintarBarra(wordpress, 14, 1, intervalWordpress);
         },100);
        
         const intervalSymfony = setInterval(function(){
-            pintarBarra(symfony, 7, 4, intervalSymfony);
+            pintarBarra(symfony, 13, 4, intervalSymfony);
         },100);
 
         const intervalReact = setInterval(function(){
-            pintarBarra(react, 6,3, intervalReact);
+            pintarBarra(react, 14, 2, intervalReact);
         },100);
         
+        const intervalNode = setInterval(function(){
+            pintarBarra(node, 12, 5, intervalNode);
+        },100);
     }
 }
 
