@@ -20,6 +20,7 @@ for(var x = 0; x <links.length;x++){
     }
 }
 
+
 //Creo las barritas de una barra particular identificada por su id
 function crearBarra(id_barra){
     for(i=0;i<=16;i++){

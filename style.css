@@ -350,15 +350,19 @@ html {
 /* SECCION RESPONSIVE */
 @media screen and (max-width:800px){
     .habilidades .contenido-seccion .fila{
-        display: block;
+        display: block;  
+        
     }
+
     .habilidades .contenido-seccion .fila .col{
         width: 100%;
-        text-align: center;
+        text-align: center;    
     }
+
     .resumen .contenido-seccion .info{
         display: block;
     }
+    
     .resumen .contenido-seccion .info .col{
         width: 90%;
         margin: auto;
